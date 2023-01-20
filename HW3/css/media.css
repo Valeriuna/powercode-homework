@@ -1,0 +1,90 @@
+@media screen and (max-width: 1200px) {
+  .main_box {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main_box {
+    width: 720px;
+  }
+  .box1 {
+    width: 400px;
+    font-size: 12px;
+    text-align: justify;
+  }
+  p {
+    width: 400px;
+  }
+  .first_table, .second_table {
+    width: 220px;
+    margin: 30px 20px 0 20px;
+  }
+  
+  td,
+  th {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_box {
+    width: 540px;
+   display: inline;
+  }
+  .box1 {
+     margin-right: 0;
+     }
+
+  p, h2, h3 {
+    width: 680px;
+    margin: 0;
+  }
+  
+  .box2 {
+    display: flex;
+    width: 696px;
+    padding-bottom: 40px;
+    margin-left: 25px;
+     }
+  .first_table {
+    width: 350px;
+  }
+  .second_table {
+    width: 320px;
+    padding: 0 0 40px 0;
+    margin: 30px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main_box {
+    width: 100%;
+    
+  }
+  .box1 {
+    width: 598px;
+    margin-top: 0;
+    text-align: justify;
+  }
+  p, h2, h3 {
+    width: 573px;
+    margin: 0;
+  }
+  h2 {
+    padding-top: 30px;
+  }
+  .box2 {
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+  }
+  .first_table {
+    width: 571px;
+  }
+  .second_table {
+    padding: 0 0 40px 20px;
+    margin: 30px 0 0 0;
+    width: 591px;
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(181, 211, 241);
+}
+img {
+  width: 200px;
+}
+h1 {
+  text-align: center;
+  color: rgb(13, 136, 13);
+  font-weight: 900;
+}
+
+.name {
+  text-decoration: underline;
+  color: rgb(156, 19, 19);
+  font-style: italic;
+}
+ol {
+  background-color: aliceblue;
+  margin-right: 1140px;
+}
+
+.one {
+  color: rgb(245, 187, 27);
+  font-style: italic;
+  font-weight: 600;
+}
+.two {
+  color: rgb(13, 133, 13);
+  text-decoration: underline;
+  font-weight: 500;
+}
+.three {
+  color: rgb(18, 18, 139);
+  font-style: italic;
+}
+.four {
+  color: rgb(239, 165, 179);
+}
+.name_link {
+  color: white;
+  background-color: rgb(14, 14, 98);
+  text-decoration: underline;
+}

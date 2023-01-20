@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.first_screen {
+  margin: 80px auto;
+  text-align: center;
+}
+.open_btn {
+    width: 368px;
+height: 60px;
+font-family: 'Open Sans Hebrew';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 20px;
+color: #01197b;
+background-color: rgb(184, 228, 252);
+border: 2px solid rgb(67, 172, 252);
+border-radius: 3px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  background-color: #163687;
+  left: 0;
+  right: 0;
+  top: 130px;
+  bottom: 0;
+  margin: auto;
+}
+.modal.opened {
+    display: block;
+}
+.modal_close {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 434px;
+  top: 23px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 66px 75px 66px;
+}
+h2 {
+  font-family: "Open Sans Hebrew";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
+input {
+    padding-left: 17px;
+}
+.input_1,
+.input_2,
+.input_3 {
+  width: 368px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+::placeholder {
+  font-family: "Open Sans Hebrew";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+  }
+.input_2 {
+  background: #ffffff;
+  border: 2px solid #ff2525;
+}
+.input_2::placeholder {
+  font-family: "Open Sans Hebrew";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ff2525;
+}
+.input_4 {
+  width: 368px;
+  height: 60px;
+  background: #fed133;
+  border: none;
+}
+
+input[value="Замовити дзвінок"] {
+  font-family: "Open Sans Hebrew";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  color: #0e0f13;
+}
